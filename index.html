@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras PWA</title>
+    <link rel="manifest" href="abu.json">
+    <link rel="stylesheet" href="css.css"> 
+    <script defer src="js.js"></script>
+
+</head>
+<body>
+    <h1>Lista de Compras</h1>
+    <label for="categoria">Escolha uma categoria:</label>
+    <select id="categoria">
+        <option value="">Selecione</option>
+        <option value="limpeza">Material de Limpeza</option>
+        <option value="alimentacao">Alimentação</option>
+        <option value="utilidades">Utilidades</option>
+    </select>
+    
+    <ul id="lista-itens"></ul>
+
+    <h2>Carrinho de Compras</h2>
+    <ul id="carrinho"></ul>
+</body>
+</html>
